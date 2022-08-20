@@ -53,3 +53,16 @@ class MyClassName:
 #         self.salary = salary
 #         self.department = department
 # alex = Employee()
+
+class Player:
+    team_name = " Liverpool"
+    def __init__(self, name) -> None:
+        self.name = name
+
+p1 = Player("Mark")
+p2 = Player("Steve")
+print("Name", p1.name)
+print("Team", p1.team_name)
+
+print("Name", p2.name)
+print("Team", p2.team_name)
