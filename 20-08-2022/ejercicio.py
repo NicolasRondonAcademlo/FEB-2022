@@ -15,6 +15,20 @@ class Student:
     def percentage(self):
         return int((self.total_obtained()/300) *100)
 
-maria = Student("maria", 80,50,99)
-print(maria.total_obtained())
-print(maria.percentage())
+# maria = Student("maria", 80,50,99)
+# print(maria.total_obtained())
+# print(maria.percentage())
+# Account - title, balance --- depositar, retirar, obtener balance
+# SAvings - interest_rate
+# Tener un metodo para saber la cantidad de intereses que ha gando mi cuenta
+
+class Account:
+    def __init__(self):
+        # write your code here
+        pass
+
+
+class SavingsAccount():
+    def __init__(self):
+        # write your code here
+        pass
