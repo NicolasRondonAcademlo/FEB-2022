@@ -50,3 +50,6 @@ demo1.deposit(2000)
 demo1.deposit(5000)
 demo1.withdrawal(300)
 print(demo1.interest_amount())
+
+[5, 0, 2, 4, 6, 3, 10]
+[5, 0, 2, 4, 6, 3] 
