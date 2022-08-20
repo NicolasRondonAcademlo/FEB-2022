@@ -23,12 +23,30 @@ class Student:
 # Tener un metodo para saber la cantidad de intereses que ha gando mi cuenta
 
 class Account:
-    def __init__(self):
-        # write your code here
-        pass
+    def __init__(self, title=None, balance=0):
+        self.title = title
+        self.balance = balance
+        
+    def withdrawal(self, amount):
+        self.balance = self.balance  -amount
 
+    def deposit(self,amount):
+        self.balance = self.balance + amount
+    
+    def get_balance(self):
+        return self.balance
 
-class SavingsAccount():
-    def __init__(self):
+class SavingsAccount(Account):
+    def __init__(self, title, balance, interest_rate):
+        super().__init__(title,balance)
         # write your code here
-        pass
+        self.interest_rate = interest_rate
+
+    def interest_amount(self):
+        return self.balance* self.interest_rate /100
+
+demo1 = SavingsAccount("Jorge", 2000, 5)
+demo1.deposit(2000)
+demo1.deposit(5000)
+demo1.withdrawal(300)
+print(demo1.interest_amount())
