@@ -54,15 +54,36 @@ class MyClassName:
 #         self.department = department
 # alex = Employee()
 
-class Player:
-    team_name = " Liverpool"
-    def __init__(self, name) -> None:
-        self.name = name
+# class Player:
+#     team_name = " Liverpool"
+#     def __init__(self, name) -> None:
+#         self.name = name
 
-p1 = Player("Mark")
-p2 = Player("Steve")
-print("Name", p1.name)
-print("Team", p1.team_name)
+# p1 = Player("Mark")
+# p2 = Player("Steve")
+# print("Name", p1.name)
+# print("Team", p1.team_name)
 
-print("Name", p2.name)
-print("Team", p2.team_name)
+# print("Name", p2.name)
+# print("Team", p2.team_name)
+
+class Employee:
+    def __init__(self, ID=None, salary=None, department=None):
+        self.ID = ID
+        self.salary = salary
+        self.department = department
+    
+    def tax(self):
+        return self.salary * 0.2
+    
+    def salary_per_day(self):
+        return self.salary / 30
+    
+
+
+
+steve = Employee(2387, 4800, "Operations")
+print(steve.salary)
+print(steve.tax())
+print(steve.salary_per_day())
+
