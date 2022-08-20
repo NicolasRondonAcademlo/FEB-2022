@@ -87,3 +87,29 @@ print(steve.salary)
 print(steve.tax())
 print(steve.salary_per_day())
 
+class Doctor:
+    def __init__(self,
+                name, 
+                hospital,
+                university,
+                speciality
+      ) -> None:
+        self.name = name
+        self.speciality =speciality
+        self.university = university
+        self.hospital = hospital
+    
+    def surgery(self):
+        return f"El medico {self.name} especialista en {self.speciality} esta operando en {self.hospital}"
+
+    def teaching(self):
+        return f"{self.name} da clases en {self.university} de {self.speciality}"
+
+pepito = Doctor(
+    "pepito",
+    "HIS",
+    "UIS",
+    "Cardiologia"
+)
+print(pepito.surgery())
+print(pepito.teaching())
