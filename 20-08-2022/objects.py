@@ -4,12 +4,12 @@
 class MyClassName:
     pass
 
-#class Employee:
+#class_file Employee:
 #    ID = None
 #    salary = None
 #    department = None
     
-# class Employee:
+# class_file Employee:
 #     ID = 2879
 #     salary = 2500
 #     department = "Human Resources"
@@ -30,7 +30,7 @@ class MyClassName:
 
 # Crea -> Inicializa ->Destroy
 
-# class Employee:
+# class_file Employee:
 #     def __init__(self, ID, salary, department) -> None:
 #         self.ID = ID
 #         self.salary = salary
@@ -47,14 +47,14 @@ class MyClassName:
 # print(lucy.department)
 
 
-# class Employee:
+# class_file Employee:
 #     def __init__(self, ID=None, salary=0, department=None) -> None:
 #         self.ID = ID
 #         self.salary = salary
 #         self.department = department
 # alex = Employee()
 
-# class Player:
+# class_file Player:
 #     team_name = " Liverpool"
 #     def __init__(self, name) -> None:
 #         self.name = name
@@ -67,7 +67,7 @@ class MyClassName:
 # print("Name", p2.name)
 # print("Team", p2.team_name)
 
-# class Employee:
+# class_file Employee:
 #     def __init__(self, ID=None, salary=None, department=None):
 #         self.ID = ID
 #         self.salary = salary
@@ -87,7 +87,7 @@ class MyClassName:
 # print(steve.tax())
 # print(steve.salary_per_day())
 
-# class Doctor:
+# class_file Doctor:
 #     def __init__(self,
 #                 name, 
 #                 hospital,
@@ -114,7 +114,7 @@ class MyClassName:
 # print(pepito.surgery())
 # print(pepito.teaching())
 
-# class Player:
+# class_file Player:
 #     team_name = "Liverpool"
     
 #     def __init__(self, name) -> None:

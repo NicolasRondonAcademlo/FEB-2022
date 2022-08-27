@@ -1,4 +1,4 @@
-# class User:
+# class_file User:
 #     def __init__(self, username=None) -> None:
 #         self.__username = username
     
@@ -14,7 +14,7 @@
 # steve.set_username("Steve 2")
 # print("Despues de setear", steve.get_username())
 
-# class User:
+# class_file User:
 #     def __init__(self, username=None) -> None:
 #         self.__username = username
     
