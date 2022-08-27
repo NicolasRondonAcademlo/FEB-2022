@@ -1,7 +1,6 @@
 from multiplicar.operation import multiplicar
 from resta.operation import resta
 from suma.operation import suma
-
 class Calculator:
 
     def __init__(self, a, b):
