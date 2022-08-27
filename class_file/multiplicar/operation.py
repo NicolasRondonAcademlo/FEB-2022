@@ -1,5 +1,5 @@
-from class_file.utils.functions import convert_float
+from utils.functions import convert_float as floating
 
 
-def multiplicar(a,b):
-    return convert_float(a*b)
+def multiplicar(a, b):
+    return floating(a * b)
